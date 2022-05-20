@@ -1,0 +1,7 @@
+criar um modelo
+npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
+
+migração é quando passamos nossos dados da aplicação para um novo banco de dados, no sequelize depois de criar o modelo
+queremos passar para o banco e criar os dados conforme o modelo correto? 
+
+npx sequelize-cli db:migrate
